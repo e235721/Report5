@@ -1,20 +1,11 @@
 public class Main {
     public static void main(String[] args) {
 
-    // 条件1: String型変数 str を宣言し、初期値として null を代入する。（"null"ではない！）
-    // 条件2: str.length() の内容を表示しようとする
+    // 条件1: String型の変数strに、文字列"壱百満"を代入せよ。
+    // 条件2: Integer.parseInt(String s)メソッドを用いて、int型変数valueに代入するコードを記述せよ。
 
-    // 条件3: 「NullPointerException」を catch せよ。
-    // 条件4: NullPointerExceptionが発生したことを標準出力せよ。出力文は、NullPointerExceptionが発生したことが分かる内容であれば自由とする。
-    // 条件5: 例外インスタンスを用いて、getMessage()を出力せよ。
+        String str = "壱百満" ;
+        int value = Integer.parseInt(str) ;
 
-        try {
-            String str = null ;
-            str.length();
-
-        } catch (NullPointerException e) {
-            System.out.println("NullPointerExceptionが発生しました。" + e.getMessage()) ;
-
-        }
     }
 }
